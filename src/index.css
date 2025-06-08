@@ -1,5 +1,43 @@
 @import "tailwindcss";
 
+@theme {
+  /* Accent Colors */
+  --color-accent-primary: rgb(244, 108, 56);
+  --color-accent-secondary: rgb(197, 255, 65);
+
+  /* Background Colors */
+  --color-surface-dark: rgb(20, 18, 18);
+  --color-surface-light: #ffffff;
+
+  /* Text Colors */
+  --color-prominent: #000000;
+  --color-heading-primary: #ffffff;
+  --color-heading-secondary: #b6b4bd33;
+  --color-content-light: #fff;
+  --color-content-primary: #998f8f;
+  --color-content-secondary: #6a6b6e;
+  --color-label: #888888;
+
+  /* Spacings */
+  --spacing-input: 0.75rem; /* 12px */
+
+  /* Border Radius */
+  --radius-ultra-tight: 0.25rem; /* 4px */
+  --radius-tight: 0.375rem; /* 6px */
+  --radius-compact: 0.5rem; /* 8px */
+  --radius-regular: 0.625rem; /* 10px */
+  --radius-relaxed: 0.75rem; /* 12px */
+  --radius-rounded: 0.875rem; /* 14px */
+  --radius-soft: 1rem; /* 16px */
+  --radius-extra-soft: 1.125rem; /* 18px */
+  --radius-circle: 100%;
+
+  /* duration */
+  --transition-duration-short: 300ms;
+  --transition-duration-medium: 500ms;
+  --transition-duration-large: 700ms;
+}
+
 :root {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
@@ -36,3 +74,7 @@ body {
     background-color: #f9f9f9;
   }
 }
+
+/* .responsive-primary-padding-y {
+  @apply py-8 md:py-10 lg:py-14;
+} */
