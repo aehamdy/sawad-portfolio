@@ -31,7 +31,7 @@ const iconMap = {
   envelope: FiMail,
   fire: BsFire,
 };
-function Icon(name, size = 21, className = "") {
+function Icon({ name, size = 21, className = "" }) {
   const IconComponent = iconMap[name];
 
   if (!IconComponent) {
