@@ -7,7 +7,7 @@ const headingMap = {
   h6: "h6",
 };
 
-function Heading({ as = "h2", children }) {
+function Heading({ as = "h2", className, children }) {
   const HeadingComponent = headingMap[as];
 
   if (!HeadingComponent) {
@@ -18,7 +18,7 @@ function Heading({ as = "h2", children }) {
     return <h2>{children}</h2>;
   }
 
-  return <HeadingComponent>{children}</HeadingComponent>;
+  return <HeadingComponent className={className}>{children}</HeadingComponent>;
 }
 
 export default Heading;
