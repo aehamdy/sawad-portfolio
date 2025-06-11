@@ -13,6 +13,7 @@
   --color-prominent: #000000;
   --color-heading-primary: #ffffff;
   --color-heading-secondary: #b6b4bd33;
+  --color-charcoal: #151312;
   --color-content-light: #fff;
   --color-content-primary: #998f8f;
   --color-content-secondary: #6a6b6e;
@@ -57,9 +58,10 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
+  /* min-width: 320px; */
   min-height: 100vh;
-  background-color: var(--color-bg-main);
+  /* background-color: var(--color-bg-main); */
+  background-color: var(--color-charcoal);
 }
 
 @media (prefers-color-scheme: light) {
@@ -67,14 +69,12 @@ body {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
+
+  body {
+    background-color: white;
   }
 }
 
-/* .responsive-primary-padding-y {
-  @apply py-8 md:py-10 lg:py-14;
-} */
+.main-heading {
+  font-size: clamp(35px, 5.52vw, 94px);
+}
