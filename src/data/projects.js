@@ -1,9 +1,9 @@
-const revoProject = "../assets/projects/revo.avif";
-const najmProject = "../assets/projects/najm-ai.avif";
-const nashraProject = "../assets/projects/nashra.avif";
-const ruyaProject = "../assets/projects/Ruya.avif";
-const seeraProject = "../assets/projects/Seera.avif";
-const stabraqProject = "../assets/projects/Stabraq.avif";
+import revoProject from "../assets/projects/revo.webp";
+import najmProject from "../assets/projects/najm-ai.webp";
+import nashraProject from "../assets/projects/nashra.webp";
+import ruyaProject from "../assets/projects/ruya.webp";
+import seeraProject from "../assets/projects/seera.webp";
+import stabraqProject from "../assets/projects/stabraq.webp";
 
 export const projects = [
   {
