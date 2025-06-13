@@ -1,5 +1,5 @@
 import { projects } from "../data/projects";
-import Project from "./ProjectComponents/Project";
+import ProjectItem from "./ProjectComponents/ProjectItem";
 import SectionHeading from "./SharedComponents/SectionHeading";
 
 function Projects() {
@@ -9,7 +9,7 @@ function Projects() {
 
       <ul className="w-full flex flex-col gap-3 md:gap-4">
         {projects.map((project) => (
-          <Project key={project.id} project={project} />
+          <ProjectItem key={project.id} project={project} />
         ))}
       </ul>
     </section>
