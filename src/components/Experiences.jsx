@@ -4,10 +4,10 @@ import { experiences } from "../data/experiences";
 
 function Experiences() {
   return (
-    <section className="">
+    <section className="flex flex-col items-center lg:items-start">
       <SectionHeading mainText="12 years of" highlightText="experience" />
 
-      <ul className="mt-8 space-y-6">
+      <ul className="space-y-6">
         {experiences.map((exp) => (
           <ExperienceItem key={exp.id} exp={exp} />
         ))}

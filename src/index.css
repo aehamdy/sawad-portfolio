@@ -8,6 +8,8 @@
   /* Background Colors */
   --color-surface-dark: rgb(20, 18, 18);
   --color-surface-light: #ffffff;
+  --color-surface-panel: #ffffff10;
+  --color-surface-input: #b6b4bd33;
 
   /* Text Colors */
   --color-prominent: #000000;
@@ -76,5 +78,5 @@ body {
 }
 
 .main-heading {
-  font-size: clamp(35px, 5.52vw, 94px);
+  font-size: clamp(45px, 7vw, 100px);
 }

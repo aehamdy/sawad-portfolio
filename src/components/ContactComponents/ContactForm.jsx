@@ -22,7 +22,7 @@ function ContactForm() {
   };
 
   return (
-    <form action="" onSubmit={onFormSubmit} className="space-y-5">
+    <form action="" onSubmit={onFormSubmit} className="w-full space-y-5">
       <div className="flex justify-between gap-2.5">
         <div className="flex flex-col items-start gap-2 w-1/2 ">
           <label htmlFor="" className="font-semibold text-xs text-label">

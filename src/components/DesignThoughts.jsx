@@ -4,7 +4,7 @@ import SectionHeading from "./SharedComponents/SectionHeading";
 
 function DesignThoughts() {
   return (
-    <section className="">
+    <section className="flex flex-col items-center lg:items-start">
       <SectionHeading mainText="design" highlightText="thoughts" />
 
       <ul className="space-y-8">

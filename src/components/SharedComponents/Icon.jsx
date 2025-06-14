@@ -19,7 +19,7 @@ const iconMap = {
   home: FiHome,
   folder: FiFolder,
   briefcase: FiBriefcase,
-  settings: FiTool,
+  tool: FiTool,
   edit: FiEdit,
   rightArrow: FiArrowRight,
   upRightArrow: FiArrowUpRight,
