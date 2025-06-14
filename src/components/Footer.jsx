@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="mt-8 py-4 text-center">
+    <footer className="mt-8 py-4 text-center text-content-primary">
       Created by{" "}
       <a
         href="https://ahmedessam-portfolio.vercel.app"
