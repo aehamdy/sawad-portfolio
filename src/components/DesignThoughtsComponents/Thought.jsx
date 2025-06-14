@@ -8,7 +8,7 @@ function Thought({ thought }) {
     <li className="">
       <Link
         to={thought.link}
-        className="group flex flex-col gap-4 py-6 px-8 hover:bg-prominent rounded-xl duration-medium"
+        className="group flex flex-col gap-4 py-6 px-2 lg:px-6 hover:bg-prominent rounded-xl duration-medium"
       >
         <div className="flex justify-between gap-16">
           <div className="space-y-3 md:w-[70%] text-start">

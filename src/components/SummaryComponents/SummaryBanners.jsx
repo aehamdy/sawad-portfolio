@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function SummaryBanners() {
   return (
-    <ul className="flex flex-wrap justify-center gap-5">
+    <ul className="flex flex-col lg:flex-row gap-5">
       {banners.map((banner) => (
         <li
           key={banner.id}

@@ -5,8 +5,8 @@ import ListItemHeading from "../SharedComponents/ListItemHeading";
 
 function ProjectItem({ project }) {
   return (
-    <li className="group relative p-2 md:p-6 hover:bg-prominent rounded-md">
-      <Link to={project.link} className="flex justify-between">
+    <li className="group relative hover:bg-prominent rounded-md overflow-hidden">
+      <Link to={project.link} className="flex justify-between p-5 md:p-6">
         <div className="flex gap-4 md:gap-6">
           <div className="w-[130px] h-[70px] md:h-[100px] overflow-hidden rounded-md">
             <img
